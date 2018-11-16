@@ -5,7 +5,7 @@ import './index.css'
 
 ReactDOM.render(
   <div className="Alpha">
-    <Component initialState={{ value: ''}}>
+      <Component initialState={{ value: ''}}>
       {({ state, setState }) => (
         <TextInput
           onChange={e => setState({ value: e.target.value })}
